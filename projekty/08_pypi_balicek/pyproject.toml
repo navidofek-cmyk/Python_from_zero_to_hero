@@ -1,0 +1,21 @@
+[project]
+name = "pozdrav-cli"
+version = "0.1.0"
+description = "Mini CLI co pozdraví"
+authors = [{name = "Eliška"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+pozdrav = "pozdrav_cli.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
