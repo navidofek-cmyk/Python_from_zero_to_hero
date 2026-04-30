@@ -1,6 +1,8 @@
 site_name: Python From Zero to Hero
 site_description: Kompletní kurz Pythonu v češtině — od základů po senior/architect úroveň
 site_author: Ivan D.
+repo_url: https://github.com/navidofek-cmyk/Python_from_zero_to_hero
+repo_name: navidofek-cmyk/Python_from_zero_to_hero
 docs_dir: lekce
 dev_addr: 127.0.0.1:9999
 
@@ -217,3 +219,6 @@ nav:
 
   - "Bonus":
     - "131 · RAG": 131_rag.md
+    - "132 · AI Agenti": 132_ai_agents.md
+    - "133 · MCP": 133_mcp.md
+    - "134 · Strukturované výstupy": 134_structured_outputs.md
