@@ -2,7 +2,9 @@
 
 Kompletní kurz Pythonu v češtině — od absolutních základů po senior/architect úroveň.
 
-**131 lekcí · 131 programů · 13 mini-projektů**
+**134 lekcí · 134 programů · 14 mini-projektů**
+
+**Web:** https://navidofek-cmyk.github.io/Python_from_zero_to_hero/
 
 ---
 
@@ -39,7 +41,7 @@ python_from_zero_to_hero/
 | XV. Výkon ve velkém | 119–124 | flame graphs, memory, GIL, async architektura |
 | XVI. Data a ML | 125–128 | pipelines, stream processing, MLOps, LLMOps |
 | XVII. Leadership | 129–130 | ADR, RFC, monorepo |
-| Bonus | 131 | RAG (Retrieval-Augmented Generation) |
+| Bonus | 131–134 | RAG, AI Agenti, MCP, Strukturované výstupy |
 
 ---
 
@@ -60,6 +62,7 @@ python_from_zero_to_hero/
 | 11 | Otestovaná knihovna | pytest, mock, coverage |
 | 12 | Optimalizace | cProfile, timeit |
 | 13 | FastAPI + SQLite + Claude | FastAPI, SQLite, Anthropic API |
+| 14 | Kurz reader | FastAPI, MkDocs, GitHub Pages |
 
 ---
 
