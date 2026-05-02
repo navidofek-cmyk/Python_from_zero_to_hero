@@ -53,6 +53,23 @@ markdown_extensions:
 nav:
   - Úvod: index.md
 
+  - "Projekty":
+    - "Rozcestník": projekty/index.md
+    - "01 · Hádej číslo": projekty/p01_hadej_cislo.md
+    - "02 · TODO list": projekty/p02_todo_list.md
+    - "03 · Textová adventura": projekty/p03_textova_adventura.md
+    - "04 · RPG postavy": projekty/p04_rpg_postavy.md
+    - "05 · Mini ORM": projekty/p05_mini_orm.md
+    - "06 · Async scraper": projekty/p06_async_scraper.md
+    - "07 · Robust CLI": projekty/p07_robust_cli.md
+    - "08 · PyPI balíček": projekty/p08_pypi_balicek.md
+    - "09 · Log analyzer": projekty/p09_log_analyzer.md
+    - "10 · Paralelní stahování": projekty/p10_paralelni_stahovani.md
+    - "11 · Otestovaná knihovna": projekty/p11_otestovana_knihovna.md
+    - "12 · Optimalizace": projekty/p12_optimalizace.md
+    - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
+    - "14 · Kurz Reader": projekty/p14_kurz_reader.md
+
   - "I. Základy":
     - "01 · Instalace, venv, pip": 01_instalace_venv_pip.md
     - "02 · REPL a skripty": 02_repl_skripty.md
@@ -243,22 +260,6 @@ nav:
     - "147 · Genetické algoritmy": 147_geneticke_algoritmy.md
     - "148 · Evoluční algoritmy": 148_evolucni_algoritmy.md
 
-  - "Projekty":
-    - "Rozcestník": projekty/index.md
-    - "01 · Hádej číslo": projekty/p01_hadej_cislo.md
-    - "02 · TODO list": projekty/p02_todo_list.md
-    - "03 · Textová adventura": projekty/p03_textova_adventura.md
-    - "04 · RPG postavy": projekty/p04_rpg_postavy.md
-    - "05 · Mini ORM": projekty/p05_mini_orm.md
-    - "06 · Async scraper": projekty/p06_async_scraper.md
-    - "07 · Robust CLI": projekty/p07_robust_cli.md
-    - "08 · PyPI balíček": projekty/p08_pypi_balicek.md
-    - "09 · Log analyzer": projekty/p09_log_analyzer.md
-    - "10 · Paralelní stahování": projekty/p10_paralelni_stahovani.md
-    - "11 · Otestovaná knihovna": projekty/p11_otestovana_knihovna.md
-    - "12 · Optimalizace": projekty/p12_optimalizace.md
-    - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
-    - "14 · Kurz Reader": projekty/p14_kurz_reader.md
   - "Programy":
     - "Rozcestník": programy/index.md
     - "L01 · Lekce 1: Instalace Pythonu, venv a pip": programy/l01_uv_demo.md
