@@ -69,6 +69,7 @@ nav:
     - "12 · Optimalizace": projekty/p12_optimalizace.md
     - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
     - "14 · Kurz Reader": projekty/p14_kurz_reader.md
+    - "15 · MCP Server": projekty/p15_mcp_server.md
 
   - "Lekce":
     - "I. Základy":
@@ -245,6 +246,25 @@ nav:
       - "151 · Neuronové sítě od nuly": 151_neural_networks_scratch.md
       - "152 · Backpropagation": 152_backpropagation.md
       - "153 · PyTorch": 153_pytorch.md
+      - "154 · Transformers a Attention": 154_transformers_attention.md
+      - "155 · Reinforcement Learning": 155_reinforcement_learning.md
+      - "156 · Fine-tuning LLM (LoRA)": 156_finetuning_llm.md
+      - "157 · Polars": 157_polars.md
+      - "158 · PyO3 — Rust rozšíření": 158_pyo3_rust.md
+      - "159 · Pokročilý type system": 159_advanced_types.md
+      - "160 · Apache Kafka": 160_kafka.md
+      - "161 · gRPC": 161_grpc.md
+      - "162 · Celery": 162_celery.md
+      - "163 · WebSockets": 163_websockets.md
+      - "164 · GraphQL — Strawberry": 164_graphql.md
+      - "165 · OAuth2 a JWT": 165_oauth2_jwt.md
+      - "166 · Kryptografie": 166_kryptografie.md
+      - "167 · PySpark": 167_pyspark.md
+      - "168 · Computer Vision": 168_computer_vision.md
+      - "169 · NLP — spaCy": 169_nlp.md
+      - "170 · Quantum Computing": 170_quantum.md
+      - "171 · Microservices": 171_microservices.md
+      - "172 · MCP Servery": 172_mcp_servery.md
   - "Programy":
     - "Rozcestník": programy/index.md
     - "L01 · Lekce 1: Instalace Pythonu, venv a pip": programy/l01_uv_demo.md
@@ -400,3 +420,22 @@ nav:
     - "L151 · Lekce 151: Neuronové sítě od nuly": programy/l151_neural_networks_scratch.md
     - "L152 · Lekce 152: Backpropagation — od nuly": programy/l152_backpropagation.md
     - "L153 · Lekce 153: PyTorch — tensory, autograd, nn.Module, MNIST": programy/l153_pytorch.md
+    - "L154 · Lekce 154: Transformers a Attention mechanismus": programy/l154_transformers_attention.md
+    - "L155 · Lekce 155: Reinforcement Learning": programy/l155_reinforcement_learning.md
+    - "L156 · Lekce 156: Fine-tuning LLM — LoRA a PEFT": programy/l156_finetuning_llm.md
+    - "L157 · Lekce 157: Polars — rychlejší pandas": programy/l157_polars.md
+    - "L158 · Lekce 158: PyO3 — Rust rozšíření pro Python": programy/l158_pyo3_rust.md
+    - "L159 · Lekce 159: Pokročilý type system": programy/l159_advanced_types.md
+    - "L160 · Lekce 160: Apache Kafka — event streaming": programy/l160_kafka.md
+    - "L161 · Lekce 161: gRPC — high-performance RPC": programy/l161_grpc.md
+    - "L162 · Lekce 162: Celery — distribuované task queues": programy/l162_celery.md
+    - "L163 · Lekce 163: WebSockets — real-time komunikace": programy/l163_websockets.md
+    - "L164 · Lekce 164: GraphQL — Strawberry": programy/l164_graphql.md
+    - "L165 · Lekce 165: OAuth2 a JWT — autentizace API": programy/l165_oauth2_jwt.md
+    - "L166 · Lekce 166: Kryptografie": programy/l166_kryptografie.md
+    - "L167 · Lekce 167: PySpark — distribuovaná analytika": programy/l167_pyspark.md
+    - "L168 · Lekce 168: Computer Vision — OpenCV": programy/l168_computer_vision.md
+    - "L169 · Lekce 169: NLP — zpracování přirozeného jazyka": programy/l169_nlp.md
+    - "L170 · Lekce 170: Quantum Computing — Qiskit": programy/l170_quantum.md
+    - "L171 · Lekce 171: Microservices — architektura a vzory": programy/l171_microservices.md
+    - "L172 · Lekce 172: MCP Servery — Model Context Protocol": programy/l172_mcp_servery.md

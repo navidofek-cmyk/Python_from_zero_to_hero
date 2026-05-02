@@ -18,6 +18,7 @@ Každá sekce kurzu končí mini-projektem, který spojuje naučené koncepty do
 | [12](p12_optimalizace.md) | Optimalizace | XII. Specializace | `cProfile`, `timeit` |
 | [13](p13_fastapi_db_llm.md) | FastAPI + SQLite + Claude | XIII. Architektura | FastAPI, SQLite, AI |
 | [14](p14_kurz_reader.md) | Kurz Reader | XIV. Produkce | FastAPI, Markdown, fulltext |
+| [15](p15_mcp_server.md) | MCP Server | XX. Algoritmy + MCP | MCP, asyncio, tools, resources, prompts |
 
 ## Jak spouštět projekty
 

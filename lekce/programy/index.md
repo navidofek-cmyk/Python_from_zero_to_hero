@@ -157,3 +157,22 @@ Ke každé lekci patří spustitelný Python program.
 | [151](l151_neural_networks_scratch.md) | Lekce 151: Neuronové sítě od nuly | `l151_neural_networks_scratch.py` |
 | [152](l152_backpropagation.md) | Lekce 152: Backpropagation — od nuly | `l152_backpropagation.py` |
 | [153](l153_pytorch.md) | Lekce 153: PyTorch — tensory, autograd, nn.Module, MNIST | `l153_pytorch.py` |
+| [154](l154_transformers_attention.md) | Lekce 154: Transformers a Attention mechanismus | `l154_transformers_attention.py` |
+| [155](l155_reinforcement_learning.md) | Lekce 155: Reinforcement Learning | `l155_reinforcement_learning.py` |
+| [156](l156_finetuning_llm.md) | Lekce 156: Fine-tuning LLM — LoRA a PEFT | `l156_finetuning_llm.py` |
+| [157](l157_polars.md) | Lekce 157: Polars — rychlejší pandas | `l157_polars.py` |
+| [158](l158_pyo3_rust.md) | Lekce 158: PyO3 — Rust rozšíření pro Python | `l158_pyo3_rust.py` |
+| [159](l159_advanced_types.md) | Lekce 159: Pokročilý type system | `l159_advanced_types.py` |
+| [160](l160_kafka.md) | Lekce 160: Apache Kafka — event streaming | `l160_kafka.py` |
+| [161](l161_grpc.md) | Lekce 161: gRPC — high-performance RPC | `l161_grpc.py` |
+| [162](l162_celery.md) | Lekce 162: Celery — distribuované task queues | `l162_celery.py` |
+| [163](l163_websockets.md) | Lekce 163: WebSockets — real-time komunikace | `l163_websockets.py` |
+| [164](l164_graphql.md) | Lekce 164: GraphQL — Strawberry | `l164_graphql.py` |
+| [165](l165_oauth2_jwt.md) | Lekce 165: OAuth2 a JWT — autentizace API | `l165_oauth2_jwt.py` |
+| [166](l166_kryptografie.md) | Lekce 166: Kryptografie | `l166_kryptografie.py` |
+| [167](l167_pyspark.md) | Lekce 167: PySpark — distribuovaná analytika | `l167_pyspark.py` |
+| [168](l168_computer_vision.md) | Lekce 168: Computer Vision — OpenCV | `l168_computer_vision.py` |
+| [169](l169_nlp.md) | Lekce 169: NLP — zpracování přirozeného jazyka | `l169_nlp.py` |
+| [170](l170_quantum.md) | Lekce 170: Quantum Computing — Qiskit | `l170_quantum.py` |
+| [171](l171_microservices.md) | Lekce 171: Microservices — architektura a vzory | `l171_microservices.py` |
+| [172](l172_mcp_servery.md) | Lekce 172: MCP Servery — Model Context Protocol | `l172_mcp_servery.py` |
