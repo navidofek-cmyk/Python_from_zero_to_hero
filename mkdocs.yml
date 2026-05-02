@@ -222,3 +222,20 @@ nav:
     - "132 · AI Agenti": 132_ai_agents.md
     - "133 · MCP": 133_mcp.md
     - "134 · Strukturované výstupy": 134_structured_outputs.md
+
+  - "Projekty":
+    - "Rozcestník": projekty/index.md
+    - "01 · Hádej číslo": projekty/p01_hadej_cislo.md
+    - "02 · TODO list": projekty/p02_todo_list.md
+    - "03 · Textová adventura": projekty/p03_textova_adventura.md
+    - "04 · RPG postavy": projekty/p04_rpg_postavy.md
+    - "05 · Mini ORM": projekty/p05_mini_orm.md
+    - "06 · Async scraper": projekty/p06_async_scraper.md
+    - "07 · Robust CLI": projekty/p07_robust_cli.md
+    - "08 · PyPI balíček": projekty/p08_pypi_balicek.md
+    - "09 · Log analyzer": projekty/p09_log_analyzer.md
+    - "10 · Paralelní stahování": projekty/p10_paralelni_stahovani.md
+    - "11 · Otestovaná knihovna": projekty/p11_otestovana_knihovna.md
+    - "12 · Optimalizace": projekty/p12_optimalizace.md
+    - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
+    - "14 · Kurz Reader": projekty/p14_kurz_reader.md
