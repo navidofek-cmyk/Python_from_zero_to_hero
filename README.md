@@ -2,7 +2,7 @@
 
 Kompletní kurz Pythonu v češtině — od absolutních základů po senior/architect úroveň.
 
-**172 lekcí · 172 programů · 15 mini-projektů**
+**183 lekcí · 183 programů · 18 mini-projektů**
 
 **Web:** https://navidofek-cmyk.github.io/Python_from_zero_to_hero/
 

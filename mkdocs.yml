@@ -70,6 +70,9 @@ nav:
     - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
     - "14 · Kurz Reader": projekty/p14_kurz_reader.md
     - "15 · MCP Server": projekty/p15_mcp_server.md
+    - "16 · E-shop API": projekty/p16_eshop_api.md
+    - "17 · LLM Agent": projekty/p17_llm_agent.md
+    - "18 · Data Pipeline": projekty/p18_data_pipeline.md
 
   - "Lekce":
     - "I. Základy":
@@ -265,6 +268,17 @@ nav:
       - "170 · Quantum Computing": 170_quantum.md
       - "171 · Microservices": 171_microservices.md
       - "172 · MCP Servery": 172_mcp_servery.md
+      - "173 · Airflow": 173_airflow.md
+      - "174 · dbt": 174_dbt.md
+      - "175 · OpenTelemetry": 175_opentelemetry.md
+      - "176 · Prometheus + Grafana": 176_prometheus_grafana.md
+      - "177 · Alembic": 177_alembic.md
+      - "178 · LangChain": 178_langchain.md
+      - "179 · Pydantic AI": 179_pydantic_ai.md
+      - "180 · Ollama": 180_ollama.md
+      - "181 · Mutation testing + Fuzzing": 181_mutation_fuzzing.md
+      - "182 · Produkční profiling": 182_production_profiling.md
+      - "183 · Python bytecode": 183_python_bytecode.md
   - "Programy":
     - "Rozcestník": programy/index.md
     - "L01 · Lekce 1: Instalace Pythonu, venv a pip": programy/l01_uv_demo.md
@@ -439,3 +453,14 @@ nav:
     - "L170 · Lekce 170: Quantum Computing — Qiskit": programy/l170_quantum.md
     - "L171 · Lekce 171: Microservices — architektura a vzory": programy/l171_microservices.md
     - "L172 · Lekce 172: MCP Servery — Model Context Protocol": programy/l172_mcp_servery.md
+    - "L173 · Lekce 173: Apache Airflow — orchestrace pipelines": programy/l173_airflow.md
+    - "L174 · Lekce 174: dbt — data transformation": programy/l174_dbt.md
+    - "L175 · Lekce 175: OpenTelemetry — distribuované trasování": programy/l175_opentelemetry.md
+    - "L176 · Lekce 176: Prometheus + Grafana — monitoring": programy/l176_prometheus_grafana.md
+    - "L177 · Lekce 177: Alembic — migrace databází": programy/l177_alembic.md
+    - "L178 · Lekce 178: LangChain — LLM aplikační framework": programy/l178_langchain.md
+    - "L179 · Lekce 179: Pydantic AI — agentní framework": programy/l179_pydantic_ai.md
+    - "L180 · Lekce 180: Ollama — lokální LLM bez API klíče": programy/l180_ollama.md
+    - "L181 · Lekce 181: Mutation testing + Fuzzing": programy/l181_mutation_fuzzing.md
+    - "L182 · Lekce 182: Produkční profiling — py-spy a memray": programy/l182_production_profiling.md
+    - "L183 · Lekce 183: Python bytecode a CPython internals (deep dive)": programy/l183_python_bytecode.md

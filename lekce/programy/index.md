@@ -176,3 +176,14 @@ Ke každé lekci patří spustitelný Python program.
 | [170](l170_quantum.md) | Lekce 170: Quantum Computing — Qiskit | `l170_quantum.py` |
 | [171](l171_microservices.md) | Lekce 171: Microservices — architektura a vzory | `l171_microservices.py` |
 | [172](l172_mcp_servery.md) | Lekce 172: MCP Servery — Model Context Protocol | `l172_mcp_servery.py` |
+| [173](l173_airflow.md) | Lekce 173: Apache Airflow — orchestrace pipelines | `l173_airflow.py` |
+| [174](l174_dbt.md) | Lekce 174: dbt — data transformation | `l174_dbt.py` |
+| [175](l175_opentelemetry.md) | Lekce 175: OpenTelemetry — distribuované trasování | `l175_opentelemetry.py` |
+| [176](l176_prometheus_grafana.md) | Lekce 176: Prometheus + Grafana — monitoring | `l176_prometheus_grafana.py` |
+| [177](l177_alembic.md) | Lekce 177: Alembic — migrace databází | `l177_alembic.py` |
+| [178](l178_langchain.md) | Lekce 178: LangChain — LLM aplikační framework | `l178_langchain.py` |
+| [179](l179_pydantic_ai.md) | Lekce 179: Pydantic AI — agentní framework | `l179_pydantic_ai.py` |
+| [180](l180_ollama.md) | Lekce 180: Ollama — lokální LLM bez API klíče | `l180_ollama.py` |
+| [181](l181_mutation_fuzzing.md) | Lekce 181: Mutation testing + Fuzzing | `l181_mutation_fuzzing.py` |
+| [182](l182_production_profiling.md) | Lekce 182: Produkční profiling — py-spy a memray | `l182_production_profiling.py` |
+| [183](l183_python_bytecode.md) | Lekce 183: Python bytecode a CPython internals (deep dive) | `l183_python_bytecode.py` |
