@@ -1,4 +1,4 @@
-"""Generuje lekce/programy/*.md pro každý soubor v programy/ a aktualizuje mkdocs.yml."""
+"""Generuje lekce/programy/*.md pro každý soubor v programy/ a aktualizuje mkdocs.yml + lekce/index.md."""
 
 import re
 from pathlib import Path
@@ -155,6 +155,34 @@ def main():
     )
     (OUT_DIR / "index.md").write_text(index_content, encoding="utf-8")
     print("  ✅ programy/index.md")
+
+    # Aktualizuj počet lekcí v lekce/index.md
+    aktualizuj_web_index(len(items))
+
+
+def aktualizuj_web_index(pocet_lekci: int) -> None:
+    """Aktualizuje počet lekcí a programů v lekce/index.md."""
+    index_path = LEKCE_DIR / "index.md"
+    if not index_path.exists():
+        print("  ⚠  lekce/index.md neexistuje, přeskočeno")
+        return
+
+    text = index_path.read_text(encoding="utf-8")
+
+    # Nahraď řádek s počtem lekcí (vzor: **NNN lekcí · NNN programů · ...)
+    novy_radek = f"**{pocet_lekci} lekcí · {pocet_lekci} programů · 14 mini-projektů**"
+    text_new = re.sub(
+        r"\*\*\d+ lekcí · \d+ programů · \d+ mini-projektů\*\*",
+        novy_radek,
+        text,
+    )
+
+    if text_new == text:
+        print("  ℹ  lekce/index.md — počet lekcí beze změny")
+        return
+
+    index_path.write_text(text_new, encoding="utf-8")
+    print(f"  ✅ lekce/index.md — aktualizováno na {pocet_lekci} lekcí")
 
 
 if __name__ == "__main__":
