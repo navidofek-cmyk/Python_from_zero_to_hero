@@ -152,3 +152,5 @@ Ke každé lekci patří spustitelný Python program.
 | [146](l146_dynamicke_programovani.md) | Lekce 146: Dynamické programování | `l146_dynamicke_programovani.py` |
 | [147](l147_geneticke_algoritmy.md) | Lekce 147: Genetické algoritmy | `l147_geneticke_algoritmy.py` |
 | [148](l148_evolucni_algoritmy.md) | Lekce 148: Evoluční algoritmy | `l148_evolucni_algoritmy.py` |
+| [149](l149_backtracking.md) | Lekce 149: Backtracking — rekurzivní prohledávání | `l149_backtracking.py` |
+| [150](l150_divide_and_conquer.md) | Lekce 150: Divide & Conquer + rekurzivní fraktály | `l150_divide_and_conquer.py` |

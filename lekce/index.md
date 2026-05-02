@@ -2,7 +2,7 @@
 
 Kompletní kurz Pythonu v češtině — od absolutních základů po senior/architect úroveň.
 
-**148 lekcí · 148 programů · 14 mini-projektů**
+**150 lekcí · 150 programů · 14 mini-projektů**
 
 ---
 
