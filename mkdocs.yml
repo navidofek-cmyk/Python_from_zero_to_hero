@@ -223,6 +223,18 @@ nav:
     - "133 · MCP": 133_mcp.md
     - "134 · Strukturované výstupy": 134_structured_outputs.md
 
+  - "XVIII. uv a nástroje":
+    - "135 · uv kompletní průvodce": 135_uv_komplet.md
+
+  - "XIX. Databáze — pokročilé":
+    - "136 · Redis": 136_redis.md
+    - "137 · MongoDB": 137_mongodb.md
+    - "138 · DuckDB": 138_duckdb.md
+    - "139 · Elasticsearch": 139_elasticsearch.md
+    - "140 · Vector DB": 140_vector_db.md
+    - "141 · InfluxDB a time-series": 141_influxdb_timeseries.md
+    - "142 · Neo4j a grafové DB": 142_neo4j_graph.md
+
   - "Projekty":
     - "Rozcestník": projekty/index.md
     - "01 · Hádej číslo": projekty/p01_hadej_cislo.md
@@ -375,3 +387,11 @@ nav:
     - "L132 · Lekce 132: AI Agenti — LLM + nástroje + smyčka": programy/l132_ai_agents.md
     - "L133 · Lekce 133: MCP — Model Context Protocol": programy/l133_mcp.md
     - "L134 · Lekce 134: Structured Outputs — Strukturovaný výstup z LLM": programy/l134_structured_outputs.md
+    - "L135 · Lekce 135: uv — kompletní průvodce": programy/l135_uv_komplet.md
+    - "L136 · Lekce 136: Redis — key-value databáze": programy/l136_redis.md
+    - "L137 · Lekce 137: MongoDB — dokumentová databáze": programy/l137_mongodb.md
+    - "L138 · Lekce 138: DuckDB — analytická databáze": programy/l138_duckdb.md
+    - "L139 · Lekce 139: Elasticsearch — fulltext vyhledávání": programy/l139_elasticsearch.md
+    - "L140 · Lekce 140: Vector databáze — embeddings a sémantické vyhledávání": programy/l140_vector_db.md
+    - "L141 · Lekce 141: Time-series databáze — InfluxDB": programy/l141_influxdb_timeseries.md
+    - "L142 · Lekce 142: Neo4j — grafová databáze": programy/l142_neo4j_graph.md

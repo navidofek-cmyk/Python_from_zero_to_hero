@@ -138,3 +138,11 @@ Ke každé lekci patří spustitelný Python program.
 | [132](l132_ai_agents.md) | Lekce 132: AI Agenti — LLM + nástroje + smyčka | `l132_ai_agents.py` |
 | [133](l133_mcp.md) | Lekce 133: MCP — Model Context Protocol | `l133_mcp.py` |
 | [134](l134_structured_outputs.md) | Lekce 134: Structured Outputs — Strukturovaný výstup z LLM | `l134_structured_outputs.py` |
+| [135](l135_uv_komplet.md) | Lekce 135: uv — kompletní průvodce | `l135_uv_komplet.py` |
+| [136](l136_redis.md) | Lekce 136: Redis — key-value databáze | `l136_redis.py` |
+| [137](l137_mongodb.md) | Lekce 137: MongoDB — dokumentová databáze | `l137_mongodb.py` |
+| [138](l138_duckdb.md) | Lekce 138: DuckDB — analytická databáze | `l138_duckdb.py` |
+| [139](l139_elasticsearch.md) | Lekce 139: Elasticsearch — fulltext vyhledávání | `l139_elasticsearch.py` |
+| [140](l140_vector_db.md) | Lekce 140: Vector databáze — embeddings a sémantické vyhledávání | `l140_vector_db.py` |
+| [141](l141_influxdb_timeseries.md) | Lekce 141: Time-series databáze — InfluxDB | `l141_influxdb_timeseries.py` |
+| [142](l142_neo4j_graph.md) | Lekce 142: Neo4j — grafová databáze | `l142_neo4j_graph.py` |
