@@ -235,6 +235,14 @@ nav:
     - "141 · InfluxDB a time-series": 141_influxdb_timeseries.md
     - "142 · Neo4j a grafové DB": 142_neo4j_graph.md
 
+  - "XX. Algoritmy":
+    - "143 · Řadící algoritmy": 143_razici_algoritmy.md
+    - "144 · Stromy": 144_stromy.md
+    - "145 · Grafové algoritmy": 145_grafove_algoritmy.md
+    - "146 · Dynamické programování": 146_dynamicke_programovani.md
+    - "147 · Genetické algoritmy": 147_geneticke_algoritmy.md
+    - "148 · Evoluční algoritmy": 148_evolucni_algoritmy.md
+
   - "Projekty":
     - "Rozcestník": projekty/index.md
     - "01 · Hádej číslo": projekty/p01_hadej_cislo.md
@@ -395,3 +403,9 @@ nav:
     - "L140 · Lekce 140: Vector databáze — embeddings a sémantické vyhledávání": programy/l140_vector_db.md
     - "L141 · Lekce 141: Time-series databáze — InfluxDB": programy/l141_influxdb_timeseries.md
     - "L142 · Lekce 142: Neo4j — grafová databáze": programy/l142_neo4j_graph.md
+    - "L143 · Lekce 143: Řadící algoritmy": programy/l143_razici_algoritmy.md
+    - "L144 · Lekce 144: Stromy — BST, AVL, Trie, Heap": programy/l144_stromy.md
+    - "L145 · Lekce 145: Grafové algoritmy": programy/l145_grafove_algoritmy.md
+    - "L146 · Lekce 146: Dynamické programování": programy/l146_dynamicke_programovani.md
+    - "L147 · Lekce 147: Genetické algoritmy": programy/l147_geneticke_algoritmy.md
+    - "L148 · Lekce 148: Evoluční algoritmy": programy/l148_evolucni_algoritmy.md

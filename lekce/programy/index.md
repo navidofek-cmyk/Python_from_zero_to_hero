@@ -146,3 +146,9 @@ Ke každé lekci patří spustitelný Python program.
 | [140](l140_vector_db.md) | Lekce 140: Vector databáze — embeddings a sémantické vyhledávání | `l140_vector_db.py` |
 | [141](l141_influxdb_timeseries.md) | Lekce 141: Time-series databáze — InfluxDB | `l141_influxdb_timeseries.py` |
 | [142](l142_neo4j_graph.md) | Lekce 142: Neo4j — grafová databáze | `l142_neo4j_graph.py` |
+| [143](l143_razici_algoritmy.md) | Lekce 143: Řadící algoritmy | `l143_razici_algoritmy.py` |
+| [144](l144_stromy.md) | Lekce 144: Stromy — BST, AVL, Trie, Heap | `l144_stromy.py` |
+| [145](l145_grafove_algoritmy.md) | Lekce 145: Grafové algoritmy | `l145_grafove_algoritmy.py` |
+| [146](l146_dynamicke_programovani.md) | Lekce 146: Dynamické programování | `l146_dynamicke_programovani.py` |
+| [147](l147_geneticke_algoritmy.md) | Lekce 147: Genetické algoritmy | `l147_geneticke_algoritmy.py` |
+| [148](l148_evolucni_algoritmy.md) | Lekce 148: Evoluční algoritmy | `l148_evolucni_algoritmy.py` |
