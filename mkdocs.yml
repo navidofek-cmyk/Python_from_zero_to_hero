@@ -70,195 +70,176 @@ nav:
     - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
     - "14 · Kurz Reader": projekty/p14_kurz_reader.md
 
-  - "I. Základy":
-    - "01 · Instalace, venv, pip": 01_instalace_venv_pip.md
-    - "02 · REPL a skripty": 02_repl_skripty.md
-    - "03 · Proměnné a typování": 03_promenne_typovani.md
-    - "04 · Základní typy": 04_zakladni_typy.md
-    - "05 · Řetězce a f-stringy": 05_retezce_fstringy.md
-    - "06 · Operátory": 06_operatory.md
-    - "07 · Vstup a výstup": 07_vstup_vystup.md
-    - "08 · Podmínky": 08_podminky.md
-    - "09 · Smyčky": 09_smycky.md
-    - "10 · Komentáře, PEP8, typing": 10_komentare_pep8_typing.md
-
-  - "II. Datové struktury":
-    - "11 · Seznamy": 11_seznamy.md
-    - "12 · Ntice": 12_ntice.md
-    - "13 · Slovníky": 13_slovniky.md
-    - "14 · Množiny": 14_mnoziny.md
-    - "15 · Řetězce pokročile": 15_retezce_pokrocile.md
-    - "16 · Bytes": 16_bytes.md
-    - "17 · Collections": 17_collections.md
-    - "18 · array, heapq, bisect": 18_array_heapq_bisect.md
-    - "19 · Slicing pokročile": 19_slicing_pokrocile.md
-    - "20 · Iterace, enumerate, zip": 20_iterace_enumerate_zip.md
-
-  - "III. Funkce":
-    - "21 · Funkce základy": 21_funkce_zaklady.md
-    - "22 · Argumenty": 22_argumenty.md
-    - "23 · Positional/keyword only": 23_positional_keyword_only.md
-    - "24 · Lambda": 24_lambda.md
-    - "25 · Closure": 25_closure.md
-    - "26 · Dekorátory": 26_dekoratory.md
-    - "27 · functools": 27_functools.md
-    - "28 · Rekurze": 28_rekurze.md
-    - "29 · Funkcionální programování": 29_funkcionalni.md
-    - "30 · Typing pro funkce": 30_typing_funkce.md
-
-  - "IV. OOP":
-    - "31 · Třídy základy": 31_tridy_zaklady.md
-    - "32 · Atributy": 32_atributy_class_instance.md
-    - "33 · Metody": 33_metody.md
-    - "34 · Property": 34_property.md
-    - "35 · Dědičnost": 35_dedicnost.md
-    - "36 · Vícenásobná dědičnost": 36_vicenasobna_dedicnost.md
-    - "37 · Dunder metody": 37_dunder_metody.md
-    - "38 · Operátorové přetížení": 38_operatorove_pretizeni.md
-    - "39 · __slots__": 39_slots.md
-    - "40 · ABC": 40_abc.md
-    - "41 · Dataclasses": 41_dataclasses.md
-    - "42 · Enum": 42_enum.md
-
-  - "V. Pokročilé OOP":
-    - "43 · Deskriptory": 43_deskriptory.md
-    - "44 · Metatřídy": 44_metatridy.md
-    - "45 · __new__ vs __init__": 45_new_vs_init.md
-    - "46 · Context managers": 46_context_managery.md
-    - "47 · Introspekce": 47_introspekce.md
-    - "48 · inspect": 48_inspect.md
-    - "49 · Dynamické třídy": 49_dynamicke_tridy.md
-    - "50 · Protocol": 50_protocols.md
-
-  - "VI. Async":
-    - "51 · Iterátory": 51_iteratory.md
-    - "52 · Generátory": 52_generatory.md
-    - "53 · yield from": 53_yield_from.md
-    - "54 · Korutiny (yield)": 54_korutiny_yield.md
-    - "55 · itertools": 55_itertools.md
-    - "56 · Async základy": 56_async_zaklady.md
-    - "57 · asyncio pokročile": 57_asyncio_pokrocile.md
-    - "58 · Async iterátory": 58_async_iteratory.md
-    - "59 · Async knihovny": 59_async_knihovny.md
-    - "60 · Streamy a fronty": 60_streamy_fronty.md
-
-  - "VII. Výjimky":
-    - "61 · try/except": 61_try_except.md
-    - "62 · Vlastní výjimky": 62_vlastni_vyjimky.md
-    - "63 · raise from": 63_raise_from.md
-    - "64 · Exception groups": 64_exception_groups.md
-    - "65 · Logging výjimek": 65_logging_exceptions.md
-    - "66 · EAFP vs LBYL": 66_eafp_lbyl.md
-
-  - "VIII. Moduly a stdlib":
-    - "67 · Moduly a import": 67_moduly_import.md
-    - "68 · Relativní importy": 68_relativni_importy.md
-    - "69 · importlib": 69_importlib.md
-    - "70 · Struktura projektu": 70_struktura_projektu.md
-    - "71 · PyPI publikace": 71_pypi_publish.md
-    - "72 · Entry points": 72_entry_points.md
-    - "73 · pathlib": 73_pathlib.md
-    - "74 · Soubory": 74_soubory.md
-    - "75 · os, shutil": 75_os_shutil.md
-    - "76 · subprocess": 76_subprocess.md
-    - "77 · datetime": 77_datetime.md
-    - "78 · JSON a CSV": 78_json_csv.md
-    - "79 · Regex": 79_regex.md
-    - "80 · Logging": 80_logging.md
-    - "81 · argparse CLI": 81_argparse_cli.md
-    - "82 · socket, HTTP": 82_socket_http.md
-
-  - "IX. Konkurence":
-    - "83 · Threading": 83_threading.md
-    - "84 · Multiprocessing": 84_multiprocessing.md
-    - "85 · concurrent.futures": 85_concurrent_futures.md
-    - "86 · Synchronizace": 86_synchronizace.md
-    - "87 · No-GIL, subinterpreters": 87_no_gil_subinterpreters.md
-
-  - "X. Testování":
-    - "88 · pytest": 88_pytest.md
-    - "89 · mock": 89_mock.md
-    - "90 · coverage, hypothesis": 90_coverage_hypothesis.md
-    - "91 · Statická analýza": 91_staticka_analyza.md
-    - "92 · Debugging": 92_debugging.md
-
-  - "XI. Výkon":
-    - "93 · Profilování": 93_profilovani.md
-    - "94 · Optimalizace": 94_optimalizace.md
-    - "95 · C rozšíření": 95_c_rozsireni.md
-    - "96 · CPython internals": 96_cpython_internals.md
-
-  - "XII. Specializace":
-    - "97 · FastAPI": 97_web_fastapi.md
-    - "98 · NumPy a pandas": 98_data_numpy_pandas.md
-    - "99 · Databáze": 99_databaze.md
-    - "100 · AI a LLM": 100_ai_llm.md
-
-  - "XIII. Architektura":
-    - "101 · SOLID": 101_solid.md
-    - "102 · Návrhové vzory": 102_navrhove_vzory.md
-    - "103 · Clean Architecture": 103_clean_architecture.md
-    - "104 · DDD": 104_ddd.md
-    - "105 · CQRS a Event Sourcing": 105_cqrs_event_sourcing.md
-    - "106 · API design": 106_api_design.md
-    - "107 · Retry, circuit breaker": 107_retry_circuit_breaker.md
-    - "108 · Konzistence dat": 108_konzistence_dat.md
-    - "109 · Validace a kontrakty": 109_validace_kontrakty.md
-    - "110 · Refactoring legacy": 110_refactoring_legacy.md
-
-  - "XIV. Produkce":
-    - "111 · 12-factor app": 111_12factor.md
-    - "112 · Observabilita": 112_observabilita.md
-    - "113 · Konfigurace v produkci": 113_konfigurace_produkce.md
-    - "114 · Docker": 114_docker.md
-    - "115 · Kubernetes": 115_kubernetes.md
-    - "116 · CI/CD": 116_cicd.md
-    - "117 · Bezpečnost": 117_bezpecnost.md
-    - "118 · Releasing": 118_releasing.md
-
-  - "XV. Výkon ve velkém":
-    - "119 · Performance engineering": 119_performance_engineering.md
-    - "120 · Memory engineering": 120_memory_engineering.md
-    - "121 · GIL strategie": 121_gil_strategie.md
-    - "122 · Async architektura": 122_async_architektura.md
-    - "123 · Distribuované systémy": 123_distribuovane_systemy.md
-    - "124 · Caching": 124_caching.md
-
-  - "XVI. Data a ML":
-    - "125 · Data pipelines": 125_data_pipelines.md
-    - "126 · Stream processing": 126_stream_processing.md
-    - "127 · MLOps a LLMOps": 127_mlops_llmops.md
-    - "128 · Embeddable Python": 128_embeddable_python.md
-
-  - "XVII. Leadership":
-    - "129 · Architektonická rozhodnutí": 129_architektonicka_rozhodnuti.md
-    - "130 · Monorepo": 130_monorepo.md
-
-  - "Bonus":
-    - "131 · RAG": 131_rag.md
-    - "132 · AI Agenti": 132_ai_agents.md
-    - "133 · MCP": 133_mcp.md
-    - "134 · Strukturované výstupy": 134_structured_outputs.md
-
-  - "XVIII. uv a nástroje":
-    - "135 · uv kompletní průvodce": 135_uv_komplet.md
-
-  - "XIX. Databáze — pokročilé":
-    - "136 · Redis": 136_redis.md
-    - "137 · MongoDB": 137_mongodb.md
-    - "138 · DuckDB": 138_duckdb.md
-    - "139 · Elasticsearch": 139_elasticsearch.md
-    - "140 · Vector DB": 140_vector_db.md
-    - "141 · InfluxDB a time-series": 141_influxdb_timeseries.md
-    - "142 · Neo4j a grafové DB": 142_neo4j_graph.md
-
-  - "XX. Algoritmy":
-    - "143 · Řadící algoritmy": 143_razici_algoritmy.md
-    - "144 · Stromy": 144_stromy.md
-    - "145 · Grafové algoritmy": 145_grafove_algoritmy.md
-    - "146 · Dynamické programování": 146_dynamicke_programovani.md
-    - "147 · Genetické algoritmy": 147_geneticke_algoritmy.md
-    - "148 · Evoluční algoritmy": 148_evolucni_algoritmy.md
+  - "Lekce":
+    - "I. Základy":
+      - "01 · Instalace, venv, pip": 01_instalace_venv_pip.md
+      - "02 · REPL a skripty": 02_repl_skripty.md
+      - "03 · Proměnné a typování": 03_promenne_typovani.md
+      - "04 · Základní typy": 04_zakladni_typy.md
+      - "05 · Řetězce a f-stringy": 05_retezce_fstringy.md
+      - "06 · Operátory": 06_operatory.md
+      - "07 · Vstup a výstup": 07_vstup_vystup.md
+      - "08 · Podmínky": 08_podminky.md
+      - "09 · Smyčky": 09_smycky.md
+      - "10 · Komentáře, PEP8, typing": 10_komentare_pep8_typing.md
+    - "II. Datové struktury":
+      - "11 · Seznamy": 11_seznamy.md
+      - "12 · Ntice": 12_ntice.md
+      - "13 · Slovníky": 13_slovniky.md
+      - "14 · Množiny": 14_mnoziny.md
+      - "15 · Řetězce pokročile": 15_retezce_pokrocile.md
+      - "16 · Bytes": 16_bytes.md
+      - "17 · Collections": 17_collections.md
+      - "18 · array, heapq, bisect": 18_array_heapq_bisect.md
+      - "19 · Slicing pokročile": 19_slicing_pokrocile.md
+      - "20 · Iterace, enumerate, zip": 20_iterace_enumerate_zip.md
+    - "III. Funkce":
+      - "21 · Funkce základy": 21_funkce_zaklady.md
+      - "22 · Argumenty": 22_argumenty.md
+      - "23 · Positional/keyword only": 23_positional_keyword_only.md
+      - "24 · Lambda": 24_lambda.md
+      - "25 · Closure": 25_closure.md
+      - "26 · Dekorátory": 26_dekoratory.md
+      - "27 · functools": 27_functools.md
+      - "28 · Rekurze": 28_rekurze.md
+      - "29 · Funkcionální programování": 29_funkcionalni.md
+      - "30 · Typing pro funkce": 30_typing_funkce.md
+    - "IV. OOP":
+      - "31 · Třídy základy": 31_tridy_zaklady.md
+      - "32 · Atributy": 32_atributy_class_instance.md
+      - "33 · Metody": 33_metody.md
+      - "34 · Property": 34_property.md
+      - "35 · Dědičnost": 35_dedicnost.md
+      - "36 · Vícenásobná dědičnost": 36_vicenasobna_dedicnost.md
+      - "37 · Dunder metody": 37_dunder_metody.md
+      - "38 · Operátorové přetížení": 38_operatorove_pretizeni.md
+      - "39 · __slots__": 39_slots.md
+      - "40 · ABC": 40_abc.md
+      - "41 · Dataclasses": 41_dataclasses.md
+      - "42 · Enum": 42_enum.md
+    - "V. Pokročilé OOP":
+      - "43 · Deskriptory": 43_deskriptory.md
+      - "44 · Metatřídy": 44_metatridy.md
+      - "45 · __new__ vs __init__": 45_new_vs_init.md
+      - "46 · Context managers": 46_context_managery.md
+      - "47 · Introspekce": 47_introspekce.md
+      - "48 · inspect": 48_inspect.md
+      - "49 · Dynamické třídy": 49_dynamicke_tridy.md
+      - "50 · Protocol": 50_protocols.md
+    - "VI. Async":
+      - "51 · Iterátory": 51_iteratory.md
+      - "52 · Generátory": 52_generatory.md
+      - "53 · yield from": 53_yield_from.md
+      - "54 · Korutiny (yield)": 54_korutiny_yield.md
+      - "55 · itertools": 55_itertools.md
+      - "56 · Async základy": 56_async_zaklady.md
+      - "57 · asyncio pokročile": 57_asyncio_pokrocile.md
+      - "58 · Async iterátory": 58_async_iteratory.md
+      - "59 · Async knihovny": 59_async_knihovny.md
+      - "60 · Streamy a fronty": 60_streamy_fronty.md
+    - "VII. Výjimky":
+      - "61 · try/except": 61_try_except.md
+      - "62 · Vlastní výjimky": 62_vlastni_vyjimky.md
+      - "63 · raise from": 63_raise_from.md
+      - "64 · Exception groups": 64_exception_groups.md
+      - "65 · Logging výjimek": 65_logging_exceptions.md
+      - "66 · EAFP vs LBYL": 66_eafp_lbyl.md
+    - "VIII. Moduly a stdlib":
+      - "67 · Moduly a import": 67_moduly_import.md
+      - "68 · Relativní importy": 68_relativni_importy.md
+      - "69 · importlib": 69_importlib.md
+      - "70 · Struktura projektu": 70_struktura_projektu.md
+      - "71 · PyPI publikace": 71_pypi_publish.md
+      - "72 · Entry points": 72_entry_points.md
+      - "73 · pathlib": 73_pathlib.md
+      - "74 · Soubory": 74_soubory.md
+      - "75 · os, shutil": 75_os_shutil.md
+      - "76 · subprocess": 76_subprocess.md
+      - "77 · datetime": 77_datetime.md
+      - "78 · JSON a CSV": 78_json_csv.md
+      - "79 · Regex": 79_regex.md
+      - "80 · Logging": 80_logging.md
+      - "81 · argparse CLI": 81_argparse_cli.md
+      - "82 · socket, HTTP": 82_socket_http.md
+    - "IX. Konkurence":
+      - "83 · Threading": 83_threading.md
+      - "84 · Multiprocessing": 84_multiprocessing.md
+      - "85 · concurrent.futures": 85_concurrent_futures.md
+      - "86 · Synchronizace": 86_synchronizace.md
+      - "87 · No-GIL, subinterpreters": 87_no_gil_subinterpreters.md
+    - "X. Testování":
+      - "88 · pytest": 88_pytest.md
+      - "89 · mock": 89_mock.md
+      - "90 · coverage, hypothesis": 90_coverage_hypothesis.md
+      - "91 · Statická analýza": 91_staticka_analyza.md
+      - "92 · Debugging": 92_debugging.md
+    - "XI. Výkon":
+      - "93 · Profilování": 93_profilovani.md
+      - "94 · Optimalizace": 94_optimalizace.md
+      - "95 · C rozšíření": 95_c_rozsireni.md
+      - "96 · CPython internals": 96_cpython_internals.md
+    - "XII. Specializace":
+      - "97 · FastAPI": 97_web_fastapi.md
+      - "98 · NumPy a pandas": 98_data_numpy_pandas.md
+      - "99 · Databáze": 99_databaze.md
+      - "100 · AI a LLM": 100_ai_llm.md
+    - "XIII. Architektura":
+      - "101 · SOLID": 101_solid.md
+      - "102 · Návrhové vzory": 102_navrhove_vzory.md
+      - "103 · Clean Architecture": 103_clean_architecture.md
+      - "104 · DDD": 104_ddd.md
+      - "105 · CQRS a Event Sourcing": 105_cqrs_event_sourcing.md
+      - "106 · API design": 106_api_design.md
+      - "107 · Retry, circuit breaker": 107_retry_circuit_breaker.md
+      - "108 · Konzistence dat": 108_konzistence_dat.md
+      - "109 · Validace a kontrakty": 109_validace_kontrakty.md
+      - "110 · Refactoring legacy": 110_refactoring_legacy.md
+    - "XIV. Produkce":
+      - "111 · 12-factor app": 111_12factor.md
+      - "112 · Observabilita": 112_observabilita.md
+      - "113 · Konfigurace v produkci": 113_konfigurace_produkce.md
+      - "114 · Docker": 114_docker.md
+      - "115 · Kubernetes": 115_kubernetes.md
+      - "116 · CI/CD": 116_cicd.md
+      - "117 · Bezpečnost": 117_bezpecnost.md
+      - "118 · Releasing": 118_releasing.md
+    - "XV. Výkon ve velkém":
+      - "119 · Performance engineering": 119_performance_engineering.md
+      - "120 · Memory engineering": 120_memory_engineering.md
+      - "121 · GIL strategie": 121_gil_strategie.md
+      - "122 · Async architektura": 122_async_architektura.md
+      - "123 · Distribuované systémy": 123_distribuovane_systemy.md
+      - "124 · Caching": 124_caching.md
+    - "XVI. Data a ML":
+      - "125 · Data pipelines": 125_data_pipelines.md
+      - "126 · Stream processing": 126_stream_processing.md
+      - "127 · MLOps a LLMOps": 127_mlops_llmops.md
+      - "128 · Embeddable Python": 128_embeddable_python.md
+    - "XVII. Leadership":
+      - "129 · Architektonická rozhodnutí": 129_architektonicka_rozhodnuti.md
+      - "130 · Monorepo": 130_monorepo.md
+    - "Bonus":
+      - "131 · RAG": 131_rag.md
+      - "132 · AI Agenti": 132_ai_agents.md
+      - "133 · MCP": 133_mcp.md
+      - "134 · Strukturované výstupy": 134_structured_outputs.md
+    - "XVIII. uv a nástroje":
+      - "135 · uv kompletní průvodce": 135_uv_komplet.md
+    - "XIX. Databáze — pokročilé":
+      - "136 · Redis": 136_redis.md
+      - "137 · MongoDB": 137_mongodb.md
+      - "138 · DuckDB": 138_duckdb.md
+      - "139 · Elasticsearch": 139_elasticsearch.md
+      - "140 · Vector DB": 140_vector_db.md
+      - "141 · InfluxDB a time-series": 141_influxdb_timeseries.md
+      - "142 · Neo4j a grafové DB": 142_neo4j_graph.md
+    - "XX. Algoritmy":
+      - "143 · Řadící algoritmy": 143_razici_algoritmy.md
+      - "144 · Stromy": 144_stromy.md
+      - "145 · Grafové algoritmy": 145_grafove_algoritmy.md
+      - "146 · Dynamické programování": 146_dynamicke_programovani.md
+      - "147 · Genetické algoritmy": 147_geneticke_algoritmy.md
+      - "148 · Evoluční algoritmy": 148_evolucni_algoritmy.md
 
   - "Programy":
     - "Rozcestník": programy/index.md
