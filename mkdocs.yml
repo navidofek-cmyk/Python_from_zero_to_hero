@@ -239,3 +239,139 @@ nav:
     - "12 · Optimalizace": projekty/p12_optimalizace.md
     - "13 · FastAPI + SQLite + Claude": projekty/p13_fastapi_db_llm.md
     - "14 · Kurz Reader": projekty/p14_kurz_reader.md
+  - "Programy":
+    - "Rozcestník": programy/index.md
+    - "L01 · Lekce 1: Instalace Pythonu, venv a pip": programy/l01_uv_demo.md
+    - "L02 · Lekce 2: REPL, skripty a if __name__ == __main__": programy/l02_repl_skript.md
+    - "L03 · Lekce 3: Proměnné, jména a dynamické typování": programy/l03_promenne.md
+    - "L04 · Lekce 4: Základní typy — int, float, bool, complex": programy/l04_typy.md
+    - "L05 · Lekce 5: Řetězce a f-stringy": programy/l05_retezce.md
+    - "L06 · Lekce 6: Operátory": programy/l06_operatory.md
+    - "L07 · Lekce 7: Vstup a výstup — input() a print()": programy/l07_io.md
+    - "L08 · Lekce 8: Podmínky — if, elif, else": programy/l08_podminky.md
+    - "L09 · Lekce 9: Smyčky — for a while": programy/l09_smycky.md
+    - "L10 · Lekce 10: Komentáře, docstringy, PEP 8 a typové hinty": programy/l10_typing.md
+    - "L11 · Lekce 11: Seznamy (list)": programy/l11_seznamy.md
+    - "L12 · Lekce 12: N-tice (tuple)": programy/l12_ntice.md
+    - "L13 · Lekce 13: Slovníky (dict)": programy/l13_slovniky.md
+    - "L14 · Lekce 14: Množiny (set, frozenset)": programy/l14_mnoziny.md
+    - "L15 · Lekce 15: Řetězce do hloubky": programy/l15_retezce_pokrocile.md
+    - "L16 · Lekce 16: bytes, bytearray, memoryview": programy/l16_bytes.md
+    - "L17 · Lekce 17: collections — speciální struktury": programy/l17_collections.md
+    - "L18 · Lekce 18: array, heapq, bisect": programy/l18_heapq_bisect.md
+    - "L19 · Lekce 19: Slicing pokročile": programy/l19_slicing.md
+    - "L20 · Lekce 20: Iterace — enumerate, zip, reversed, sorted": programy/l20_iterace.md
+    - "L21 · Lekce 21: Definice funkcí": programy/l21_funkce.md
+    - "L22 · Lekce 22: *args a **kwargs": programy/l22_args_kwargs.md
+    - "L23 · Lekce 23: Positional-only / a keyword-only *": programy/l23_pos_kw_only.md
+    - "L24 · Lekce 24: Lambda funkce": programy/l24_lambda.md
+    - "L25 · Lekce 25: Closure a nonlocal": programy/l25_closure.md
+    - "L26 · Lekce 26: Dekorátory funkcí": programy/l26_dekoratory.md
+    - "L27 · Lekce 27: functools — kouzla nad funkcemi": programy/l27_functools.md
+    - "L28 · Lekce 28: Rekurze": programy/l28_rekurze.md
+    - "L29 · Lekce 29: Funkcionální nástroje — map, filter, generátory": programy/l29_funkcionalni.md
+    - "L30 · Lekce 30: Anotace typů u funkcí (pokročile)": programy/l30_typing.md
+    - "L31 · Lekce 31: Třídy a instance": programy/l31_tridy.md
+    - "L32 · Lekce 32: Atributy instance vs třídy": programy/l32_atributy.md
+    - "L33 · Lekce 33: Metody — instance, @classmethod, @staticmethod": programy/l33_metody.md
+    - "L34 · Lekce 34: @property — kouzelné atributy": programy/l34_property.md
+    - "L35 · Lekce 35: Dědičnost a super()": programy/l35_dedicnost.md
+    - "L36 · Lekce 36: Vícenásobná dědičnost a mixiny": programy/l36_mixiny.md
+    - "L37 · Lekce 37: Dunder metody": programy/l37_dunder.md
+    - "L38 · Lekce 38: Operátorové přetížení": programy/l38_operatory.md
+    - "L39 · Lekce 39: __slots__ — paměť a rychlost": programy/l39_slots.md
+    - "L40 · Lekce 40: Abstraktní třídy (abc)": programy/l40_abc.md
+    - "L41 · Lekce 41: dataclasses": programy/l41_dataclasses.md
+    - "L42 · Lekce 42: Enum, IntEnum, StrEnum, Flag": programy/l42_enum.md
+    - "L43 · Lekce 43: Deskriptory": programy/l43_deskriptor.md
+    - "L44 · Lekce 44: Metatřídy": programy/l44_metatridy.md
+    - "L45 · Lekce 45: __new__ vs __init__": programy/l45_singleton.md
+    - "L46 · Lekce 46: Context managery a with": programy/l46_context.md
+    - "L47 · Lekce 47: Introspekce a monkey patching": programy/l47_introspekce.md
+    - "L48 · Lekce 48: Modul inspect": programy/l48_inspect.md
+    - "L49 · Lekce 49: Dynamické vytváření tříd": programy/l49_dynamicke_tridy.md
+    - "L50 · Lekce 50: Protokoly a typing.Protocol (strukturální typování)": programy/l50_protocols.md
+    - "L51 · Lekce 51: Iterátory": programy/l51_iterator.md
+    - "L52 · Lekce 52: Generátory s yield": programy/l52_generatory.md
+    - "L53 · Lekce 53: yield from — delegování generátorů": programy/l53_yield_from.md
+    - "L54 · Lekce 54: Generátorové korutiny — send, throw, close": programy/l54_korutiny.md
+    - "L55 · Lekce 55: itertools — kouzla s iterátory": programy/l55_itertools.md
+    - "L56 · Lekce 56: async/await základ": programy/l56_async_zaklady.md
+    - "L57 · Lekce 57: asyncio — gather, create_task, TaskGroup": programy/l57_taskgroup.md
+    - "L58 · Lekce 58: Async iterátory a generátory": programy/l58_async_iter.md
+    - "L59 · Lekce 59: Async knihovny — aiohttp, httpx, aiofiles": programy/l59_httpx_demo.md
+    - "L60 · Lekce 60: Streamy a fronty v asyncio": programy/l60_queue.md
+    - "L61 · Lekce 61: try/except/else/finally": programy/l61_try.md
+    - "L62 · Lekce 62: Vlastní výjimky": programy/l62_vlastni_vyjimky.md
+    - "L63 · Lekce 63: raise from, řetězení výjimek": programy/l63_raise_from.md
+    - "L64 · Lekce 64: ExceptionGroup a except* (Python 3.11+)": programy/l64_exception_group.md
+    - "L65 · Lekce 65: Kontextové výjimky a logování stack trace": programy/l65_logging_exception.md
+    - "L66 · Lekce 66: EAFP vs LBYL — pythonský přístup": programy/l66_eafp.md
+    - "L67 · Lekce 67: Moduly a import systém": programy/l67_balicek_demo.md
+    - "L68 · Lekce 68: Relativní vs absolutní importy, kruhové importy": programy/l68_relativni_importy.md
+    - "L69 · Lekce 69: importlib, dynamické importy, lazy import": programy/l69_dynamicky_import.md
+    - "L70 · Lekce 70: Struktura projektu, pyproject.toml": programy/l70_struktura_projektu.md
+    - "L71 · Lekce 71: Publikace na PyPI": programy/l71_pypi_publish.md
+    - "L72 · Lekce 72: Entry points a CLI skripty": programy/l72_entry_points.md
+    - "L73 · Lekce 73: pathlib — moderní práce se soubory": programy/l73_pathlib.md
+    - "L74 · Lekce 74: Práce se soubory": programy/l74_soubory.md
+    - "L75 · Lekce 75: os, shutil, tempfile, glob": programy/l75_os_shutil.md
+    - "L76 · Lekce 76: subprocess — spouštění procesů": programy/l76_subprocess.md
+    - "L77 · Lekce 77: datetime, zoneinfo, time": programy/l77_datetime.md
+    - "L78 · Lekce 78: json, csv, tomllib, configparser, pickle": programy/l78_json_csv.md
+    - "L79 · Lekce 79: Regulární výrazy (re)": programy/l79_regex.md
+    - "L80 · Lekce 80: logging — místo print": programy/l80_logging.md
+    - "L81 · Lekce 81: argparse, click, typer — CLI": programy/l81_argparse.md
+    - "L82 · Lekce 82: socket, urllib, http.client": programy/l82_socket.md
+    - "L83 · Lekce 83: Vlákna (threading) a GIL": programy/l83_threading.md
+    - "L84 · Lekce 84: multiprocessing — paralelismus pro CPU": programy/l84_multiprocessing.md
+    - "L85 · Lekce 85: concurrent.futures": programy/l85_futures.md
+    - "L86 · Lekce 86: Synchronizační primitiva": programy/l86_synchronizace.md
+    - "L87 · Lekce 87: Free-threaded Python (3.13+) a subinterpreters": programy/l87_gil_check.md
+    - "L88 · Lekce 88: unittest a pytest": programy/l88_pytest_demo.md
+    - "L89 · Lekce 89: Mockování — unittest.mock, monkeypatch": programy/l89_mock_demo.md
+    - "L90 · Lekce 90: Coverage a property-based testing": programy/l90_hypothesis_demo.md
+    - "L91 · Lekce 91: Statická analýza — mypy, ruff, black": programy/l91_ruff_config.md
+    - "L92 · Lekce 92: Debugging — pdb, breakpoint(), traceback": programy/l92_breakpoint_demo.md
+    - "L93 · Lekce 93: Profilování — cProfile, timeit, tracemalloc": programy/l93_profilovani.md
+    - "L94 · Lekce 94: Optimalizace": programy/l94_optimalizace.md
+    - "L95 · Lekce 95: C rozšíření a FFI": programy/l95_ctypes.md
+    - "L96 · Lekce 96: CPython internals — bytecode, GC, refcounting": programy/l96_dis_demo.md
+    - "L97 · Lekce 97: Web — FastAPI": programy/l97_fastapi_demo.md
+    - "L98 · Lekce 98: Datové analýzy — NumPy a pandas": programy/l98_numpy_pandas.md
+    - "L99 · Lekce 99: Databáze — sqlite3, SQLAlchemy": programy/l99_sqlite.md
+    - "L100 · Lekce 100: AI/ML a LLM — práce s API": programy/l100_claude_api.md
+    - "L101 · Lekce 101: SOLID v Pythonu": programy/l101_solid.md
+    - "L102 · Lekce 102: Návrhové vzory pythonicky": programy/l102_navrhove_vzory.md
+    - "L103 · Lekce 103: Hexagonal / Ports & Adapters / Clean Architecture": programy/l103_clean_architecture.md
+    - "L104 · Lekce 104: Domain-Driven Design (DDD)": programy/l104_ddd.md
+    - "L105 · Lekce 105: CQRS a Event Sourcing": programy/l105_cqrs_event_sourcing.md
+    - "L106 · Lekce 106: API Design — REST, versioning, BFF, Pydantic": programy/l106_api_design.md
+    - "L107 · Lekce 107: Idempotence, retry, timeouty, circuit breaker": programy/l107_retry_circuit_breaker.md
+    - "L108 · Lekce 108: Konzistence dat — Saga, Outbox, transakční messaging": programy/l108_konzistence_dat.md
+    - "L109 · Lekce 109: Validace a kontrakty — Pydantic v2": programy/l109_validace_kontrakty.md
+    - "L110 · Lekce 110: Refactoring legacy Pythonu": programy/l110_refactoring_legacy.md
+    - "L111 · Lekce 111 — 12-Factor App v Pythonu": programy/l111_12factor.md
+    - "L112 · Lekce 112 — Observabilita v Pythonu": programy/l112_observabilita.md
+    - "L113 · Lekce 113 — Konfigurace v produkci": programy/l113_konfigurace_produkce.md
+    - "L114 · Lekce 114 — Containerizace Python aplikací": programy/l114_docker.md
+    - "L115 · Lekce 115 — Kubernetes pro Pythonistu": programy/l115_kubernetes.md
+    - "L116 · Lekce 116 — CI/CD pipeline pro Python projekty": programy/l116_cicd.md
+    - "L117 · Lekce 117 — Bezpečnost Python aplikací (OWASP Top 10)": programy/l117_bezpecnost.md
+    - "L118 · Lekce 118 — Releasing, Rollback a Databázové migrace": programy/l118_releasing.md
+    - "L119 · Lekce 119: Performance Engineering": programy/l119_performance_engineering.md
+    - "L120 · Lekce 120: Memory Engineering": programy/l120_memory_engineering.md
+    - "L121 · Lekce 121: GIL — strategie v praxi": programy/l121_gil_strategie.md
+    - "L122 · Lekce 122: Async architektura ve velkém": programy/l122_async_architektura.md
+    - "L123 · Lekce 123: Distribuované systémy": programy/l123_distribuovane_systemy.md
+    - "L124 · Lekce 124: Caching vrstvy": programy/l124_caching.md
+    - "L125 · Lekce 125 — Data Engineering Pipelines": programy/l125_data_pipelines.md
+    - "L126 · Lekce 126 — Stream Processing": programy/l126_stream_processing.md
+    - "L127 · Lekce 127 — MLOps a LLMOps": programy/l127_mlops_llmops.md
+    - "L128 · Lekce 128 — Embeddable Python a Plugin Systémy": programy/l128_embeddable_python.md
+    - "L129 · Lekce 129 — Architektonická Rozhodnutí a Komunikace": programy/l129_architektonicka_rozhodnuti.md
+    - "L130 · Lekce 130 — Velký Monorepo a Multi-repo Python": programy/l130_monorepo.md
+    - "L131 · Lekce 131: RAG — Retrieval-Augmented Generation": programy/l131_rag.md
+    - "L132 · Lekce 132: AI Agenti — LLM + nástroje + smyčka": programy/l132_ai_agents.md
+    - "L133 · Lekce 133: MCP — Model Context Protocol": programy/l133_mcp.md
+    - "L134 · Lekce 134: Structured Outputs — Strukturovaný výstup z LLM": programy/l134_structured_outputs.md
