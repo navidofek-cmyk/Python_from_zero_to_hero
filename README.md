@@ -70,11 +70,14 @@ python_from_zero_to_hero/
 
 ## Jak začít
 
-```bash
-# Instalace uv (doporučeno)
-curl -LsSf https://astral.sh/uv/install.sh | sh
+### Možnost A — uv (doporučeno, rychlejší)
 
-# Spusť libovolný program přímo
+```bash
+# Instalace uv
+curl -LsSf https://astral.sh/uv/install.sh | sh   # Linux/macOS
+# nebo: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"  (Windows)
+
+# Spusť program přímo — uv vše zařídí automaticky
 uv run programy/l01_uv_demo.py
 
 # Programy s externími závislostmi
@@ -85,15 +88,30 @@ uv run --with duckdb,pandas programy/l138_duckdb.py
 uv run --with chromadb programy/l140_vector_db.py
 ```
 
-Nebo klasicky přes pip:
+### Možnost B — klasické venv + pip
 
 ```bash
-pip install uv
-uv venv && source .venv/bin/activate
+# Vytvoř virtuální prostředí
+python3 -m venv .venv
+source .venv/bin/activate        # Linux/macOS
+# nebo: .venv\Scripts\activate   # Windows
+
+# Spusť program
 python programy/l01_uv_demo.py
+
+# Nainstaluj závislosti pro konkrétní lekci
+pip install fastapi uvicorn       # lekce 97
+pip install redis                 # lekce 136
+pip install pymongo               # lekce 137
+pip install duckdb pandas numpy   # lekce 138
+pip install elasticsearch         # lekce 139
+pip install chromadb              # lekce 140
+pip install influxdb-client       # lekce 141
+pip install neo4j                 # lekce 142
+pip install anthropic             # lekce 100, 131
 ```
 
-Pro databázové lekce (136–142) je potřeba spustit příslušnou databázi v Dockeru — instrukce jsou v hlavičce každého programu.
+Pro databázové lekce (136–142) je potřeba spustit příslušnou databázi v Dockeru — Docker příkaz je vždy v hlavičce programu.
 
 ---
 
