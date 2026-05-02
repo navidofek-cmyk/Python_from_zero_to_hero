@@ -2,7 +2,7 @@
 
 Kompletní kurz Pythonu v češtině — od absolutních základů po senior/architect úroveň.
 
-**150 lekcí · 150 programů · 14 mini-projektů**
+**153 lekcí · 153 programů · 14 mini-projektů**
 
 **Web:** https://navidofek-cmyk.github.io/Python_from_zero_to_hero/
 
@@ -44,7 +44,7 @@ python_from_zero_to_hero/
 | Bonus | 131–134 | RAG, AI Agenti, MCP, Strukturované výstupy |
 | XVIII. uv a nástroje | 135 | uv workspaces, tools, inline deps, CI/CD |
 | XIX. Databáze — pokročilé | 136–142 | Redis, MongoDB, DuckDB, Elasticsearch, Vector DB, InfluxDB, Neo4j |
-| XX. Algoritmy | 143–150 | řazení, stromy, grafy, DP, GA, EA, backtracking, D&C, fraktály |
+| XX. Algoritmy | 143–153 | řazení, stromy, grafy, DP, GA, EA, backtracking, D&C, fraktály, NN, backprop, PyTorch |
 
 ---
 

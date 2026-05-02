@@ -154,3 +154,6 @@ Ke každé lekci patří spustitelný Python program.
 | [148](l148_evolucni_algoritmy.md) | Lekce 148: Evoluční algoritmy | `l148_evolucni_algoritmy.py` |
 | [149](l149_backtracking.md) | Lekce 149: Backtracking — rekurzivní prohledávání | `l149_backtracking.py` |
 | [150](l150_divide_and_conquer.md) | Lekce 150: Divide & Conquer + rekurzivní fraktály | `l150_divide_and_conquer.py` |
+| [151](l151_neural_networks_scratch.md) | Lekce 151: Neuronové sítě od nuly | `l151_neural_networks_scratch.py` |
+| [152](l152_backpropagation.md) | Lekce 152: Backpropagation — od nuly | `l152_backpropagation.py` |
+| [153](l153_pytorch.md) | Lekce 153: PyTorch — tensory, autograd, nn.Module, MNIST | `l153_pytorch.py` |

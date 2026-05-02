@@ -242,6 +242,9 @@ nav:
       - "148 · Evoluční algoritmy": 148_evolucni_algoritmy.md
       - "149 · Backtracking": 149_backtracking.md
       - "150 · Divide and Conquer + fraktály": 150_divide_and_conquer.md
+      - "151 · Neuronové sítě od nuly": 151_neural_networks_scratch.md
+      - "152 · Backpropagation": 152_backpropagation.md
+      - "153 · PyTorch": 153_pytorch.md
   - "Programy":
     - "Rozcestník": programy/index.md
     - "L01 · Lekce 1: Instalace Pythonu, venv a pip": programy/l01_uv_demo.md
@@ -394,3 +397,6 @@ nav:
     - "L148 · Lekce 148: Evoluční algoritmy": programy/l148_evolucni_algoritmy.md
     - "L149 · Lekce 149: Backtracking — rekurzivní prohledávání": programy/l149_backtracking.md
     - "L150 · Lekce 150: Divide & Conquer + rekurzivní fraktály": programy/l150_divide_and_conquer.md
+    - "L151 · Lekce 151: Neuronové sítě od nuly": programy/l151_neural_networks_scratch.md
+    - "L152 · Lekce 152: Backpropagation — od nuly": programy/l152_backpropagation.md
+    - "L153 · Lekce 153: PyTorch — tensory, autograd, nn.Module, MNIST": programy/l153_pytorch.md
