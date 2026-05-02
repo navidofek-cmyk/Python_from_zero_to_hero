@@ -1,6 +1,6 @@
 # Python: From Zero to Hero — kontext pro Claude
 
-Kurz Pythonu v češtině. 172 lekcí, 172 programů, 15 mini-projektů. Nasazeno na GitHub Pages přes MkDocs Material.
+Kurz Pythonu v češtině. **183 lekcí, 183 programů, 18 mini-projektů**. Nasazeno na GitHub Pages přes MkDocs Material.
 
 **Web:** https://navidofek-cmyk.github.io/Python_from_zero_to_hero/
 **Repo:** https://github.com/navidofek-cmyk/Python_from_zero_to_hero
@@ -45,7 +45,7 @@ Proč: Dříve se `lekce/index.md` zapomínalo aktualizovat ručně — stalo se
 Úvod | Projekty | Lekce | Programy
 ```
 
-Proč 4 taby, ne 20+: `navigation.tabs` v MkDocs Material přetéká při 20+ top-level sekcích. Všechny lekce (I–XX) jsou pod jediným tabem "Lekce" v levém sidebaru.
+Proč 4 taby, ne 20+: `navigation.tabs` v MkDocs Material přetéká při 20+ top-level sekcích. Všechny lekce (I–XXIII) jsou pod jediným tabem "Lekce" v levém sidebaru.
 
 Projekty jsou **2. tab** (ne na konci) — dříve byly za 20+ sekcemi a prakticky nepřístupné.
 
@@ -60,6 +60,9 @@ Projekty jsou **2. tab** (ne na konci) — dříve byly za 20+ sekcemi a praktic
 | XVIII | 135 | uv kompletní průvodce |
 | XIX | 136–142 | Databáze: Redis, MongoDB, DuckDB, ES, Vector DB, InfluxDB, Neo4j |
 | XX | 143–172 | Algoritmy, NN, backprop, PyTorch, Transformers, RL, LoRA, Polars, PyO3, Kafka, gRPC, Celery, WebSockets, GraphQL, JWT, Crypto, Spark, CV, NLP, Quantum, Microservices, MCP |
+| XXI | 173–177 | Airflow, dbt, OpenTelemetry, Prometheus+Grafana, Alembic |
+| XXII | 178–180 | LangChain, Pydantic AI, Ollama |
+| XXIII | 181–183 | Mutation testing+Fuzzing, py-spy+memray, Python bytecode |
 
 ---
 
