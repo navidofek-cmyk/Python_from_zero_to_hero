@@ -2,7 +2,7 @@
 
 Kompletní kurz Pythonu v češtině — od absolutních základů po senior/architect úroveň.
 
-**134 lekcí · 134 programů · 14 mini-projektů**
+**142 lekcí · 142 programů · 14 mini-projektů**
 
 **Web:** https://navidofek-cmyk.github.io/Python_from_zero_to_hero/
 
@@ -42,6 +42,8 @@ python_from_zero_to_hero/
 | XVI. Data a ML | 125–128 | pipelines, stream processing, MLOps, LLMOps |
 | XVII. Leadership | 129–130 | ADR, RFC, monorepo |
 | Bonus | 131–134 | RAG, AI Agenti, MCP, Strukturované výstupy |
+| XVIII. uv a nástroje | 135 | uv workspaces, tools, inline deps, CI/CD |
+| XIX. Databáze — pokročilé | 136–142 | Redis, MongoDB, DuckDB, Elasticsearch, Vector DB, InfluxDB, Neo4j |
 
 ---
 
@@ -69,33 +71,29 @@ python_from_zero_to_hero/
 ## Jak začít
 
 ```bash
-# Doporučeno: uv (rychlý správce prostředí)
-pip install uv
+# Instalace uv (doporučeno)
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Vytvoř virtuální prostředí
-uv venv
-source .venv/bin/activate   # Linux/macOS
-# nebo: .venv\Scripts\activate  (Windows)
+# Spusť libovolný program přímo
+uv run programy/l01_uv_demo.py
 
-# Spusť libovolný program
-python programy/l01_uv_demo.py
-python programy/l101_solid.py
-python programy/l131_rag.py
+# Programy s externími závislostmi
+uv run --with fastapi,uvicorn programy/l97_fastapi_demo.py
+uv run --with redis programy/l136_redis.py
+uv run --with pymongo programy/l137_mongodb.py
+uv run --with duckdb,pandas programy/l138_duckdb.py
+uv run --with chromadb programy/l140_vector_db.py
 ```
 
-Pro lekce vyžadující externí balíčky:
+Nebo klasicky přes pip:
 
 ```bash
-# FastAPI (lekce 97, projekt 13)
-pip install "fastapi[standard]"
-
-# Anthropic Claude (lekce 100, 131)
-pip install anthropic
-export ANTHROPIC_API_KEY=sk-ant-...
-
-# NumPy, pandas (lekce 98)
-pip install numpy pandas matplotlib
+pip install uv
+uv venv && source .venv/bin/activate
+python programy/l01_uv_demo.py
 ```
+
+Pro databázové lekce (136–142) je potřeba spustit příslušnou databázi v Dockeru — instrukce jsou v hlavičce každého programu.
 
 ---
 
@@ -108,6 +106,8 @@ Pokud znáš základy, přeskoč na sekci, která tě zajímá:
 - **Junior** → přeskoč na lekci 31 (OOP)
 - **Intermediate** → přeskoč na lekci 51 (async) nebo 88 (testování)
 - **Senior** → přeskoč na lekci 101 (architektura)
+- **Databáze** → přeskoč na lekci 136 (Redis, MongoDB, DuckDB, ES, Vector, InfluxDB, Neo4j)
+- **uv** → přejdi na lekci 135 (kompletní průvodce)
 
 ---
 
